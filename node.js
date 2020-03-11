@@ -65,4 +65,19 @@ http.createServer(function (req, res) {
 
 //--------------------------------------------------------------------------------------
 
+//Binding Event to an Event Listener
+
+// Import events module
+var my_Events = require('events');
+// Create an eventEmitter object
+var my_EveEmitter = new my_Events.EventEmitter();
+
+// Binding event and event handler 
+my_EveEmitter.on('eventName', eventHandler);
+
+
+// Fire an event
+my_EveEmitter.emit('eventName'); 
+
+//--------------------------------------------------------------------------------------
 
