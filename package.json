@@ -1,0 +1,31 @@
+{
+    "name": "nokiki",
+    "version": "1.0.0",
+    "description": "Practicing node.js",
+    "main": "server.js",
+    "directories": {
+      "express": "^4.16.3",
+      "lib": "lib"
+    },
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "node server.js",
+      "watch": "nodemon server.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Kiananaik/node.js-practice.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/Kiananaik/node.js-practice/issues"
+    },
+    "homepage": "https://github.com/Kiananaik/node.js-practice#readme",
+    "dependencies": {
+      "express": "^4.17.1"
+    },
+    "devDependencies": {}
+  }
+  

@@ -24,3 +24,14 @@ myLogModule.domain('Education');
 
 
 var varName = value;
+
+
+//Defining a function
+function display_Name(firstName, lastName) {
+    alert("Hello " + firstName + " " + lastName);
+}
+   
+//Invoking the function
+display_Name("Kiki", "Garcia");
+
+
